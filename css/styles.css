@@ -140,6 +140,7 @@ nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav .link:hover,
@@ -170,6 +171,7 @@ nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts .link:hover,
@@ -362,6 +364,8 @@ nav {
   align-items: center;
   justify-content: center;
   color: var(--items-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socnet:hover,
@@ -394,6 +398,9 @@ nav {
 
   outline: 1px solid var(--items-color);
   border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item:hover,
@@ -438,6 +445,7 @@ nav {
 
 .address_location {
   color: var(--white-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address_location:hover,
@@ -447,6 +455,7 @@ nav {
 
 .address_contact {
   color: var(--secondary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address_contact:hover,
@@ -482,6 +491,8 @@ nav {
   border-radius: 50%;
   color: var(--white-text-color);
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-socnet:hover,
@@ -528,6 +539,10 @@ nav {
   line-height: 1.6;
   letter-spacing: 0.03em;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   cursor: pointer;
 }
 
@@ -553,6 +568,7 @@ nav {
 
 .cases-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cases-link:hover,
